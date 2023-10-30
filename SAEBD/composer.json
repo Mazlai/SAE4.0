@@ -1,0 +1,19 @@
+{
+    "name": "vendor/phpunit",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Phpunit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Members of Group 1",
+            "email": "micky31200@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
