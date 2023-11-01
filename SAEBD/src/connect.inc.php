@@ -1,4 +1,6 @@
 <?php
+#IUTB2091
+#estebanlegoat
 
 	namespace Phpunit;
 	$db = "(DESCRIPTION =
@@ -8,7 +10,7 @@
 			  (SID = db11g)
 			)
 		  )" ;
-	$connect = oci_connect("IUTB2091", "estebanlegoat", $db);
+	$connect = oci_connect("", "", $db);
 	
 	// si la connexion a échoué, on affiche le message d'erreur
 	if (!$connect) {
